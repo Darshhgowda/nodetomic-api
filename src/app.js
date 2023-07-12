@@ -4,7 +4,6 @@ import config from './config';
 const app = express();
 
 (async function run() {
-
   // Express
   await require('./lib/express').index(app);
 
